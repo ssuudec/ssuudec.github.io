@@ -1,0 +1,91 @@
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif; /* Yazı tipi */
+    margin: 0; /* Varsayılan dış boşlukları kaldırma */
+    padding: 0; /* Varsayılan iç boşlukları kaldırma */
+    line-height: 1.6; /* Satır yüksekliği */
+}
+
+/* Header (başlık) stil ayarları */
+header {
+    background-color: #dc9ad3; /* Arka plan rengi */
+    color: rgb(255, 255, 255); /* Yazı rengi */
+    padding: 10px 0; /* İç boşluk */
+    text-align: center; /* Metni ortalama */
+    background-image: url(imgs/parfüm.jpg); /* Arka plan resmi */
+    background-size: cover; /* Resmi tam ekran kaplama */
+    background-position: center; /* Resmi merkeze hizalama */
+    position: relative; /* Konumlama ayarı */
+    color: white; /* Yazı rengini beyaz yap */
+}
+
+/* Navigasyon menüsü ayarları */
+nav ul {
+    list-style: none; /* Madde işaretlerini kaldırma */
+    padding: 20; /* İç boşluk */
+    background: #7e5290; /* Arka plan rengi */
+    text-align: center; /* Metni ortalama */
+    justify-content: space-between; /* Elemanlar arasında eşit boşluk bırakma */
+    display: flex; /* Yatay yerleşim için flexbox */
+}
+
+/* Navigasyon menüsü öğeleri */
+nav ul li {
+    display: inline; /* Elemanları yatay dizme */
+    margin: 0; /* Dış boşluk kaldırma */
+}
+
+/* Navigasyon bağlantıları */
+nav ul li a {
+    text-decoration: none; /* Alt çizgiyi kaldırma */
+    color: rgb(255, 255, 255); /* Yazı rengi */
+    padding: 10px 20px; /* İç boşluk */
+    display: inline-block; /* Bağlantıları blok gibi gösterme */
+}
+
+/* Bağlantı üzerine gelindiğinde */
+nav ul li a:hover {
+    background: #b11081; /* Arka plan rengini değiştirme */
+}
+
+/* Ana içerik alanı */
+main {
+    padding: 20px; /* İç boşluk */
+}
+
+/* Tablo ayarları */
+table {
+    width: 100%; /* Tabloyu genişletme */
+    border-collapse: collapse; /* Çift kenarlıkları kaldırma */
+    margin: 20px 0; /* Dış boşluk */
+}
+
+/* Tablo, başlık ve hücre kenarlıkları */
+table, th, td {
+    border: 1px solid #ddd; /* Kenar stili */
+}
+
+/* Tablo hücreleri ve başlıklar */
+th, td {
+    padding: 10px; /* Hücre içi boşluk */
+    text-align: center; /* Metni ortalama */
+}
+
+/* Tablo başlığı */
+th {
+    background-color: #d09fb5; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+}
+
+/* Başlıkların yazı tipi */
+h1 {
+    font-family: 'Cinzel', serif; /* Yazı tipi */
+}
+
+/* Görseller */
+img {
+    height: 500px; /* Görsel yüksekliği */
+    border-radius: 20%; /* Yuvarlatılmış köşeler */
+    display: block; /* Görseli blok öğesi yapma */
+    margin: 0 auto; /* Ortalamak için boşluk ayarı */
+}
